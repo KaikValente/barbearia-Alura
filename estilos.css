@@ -268,10 +268,60 @@ td, th {
 
     nav {
         position: static;
+        margin: 0 25px 0 25px;
     }
+
+    p {
+       text-align: center;
+    }
+
+    
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
 
+    .produtos{
+		width: auto;
+	}
+
+	.produtos li img{
+        width: 80%;
+    }
+
+    
+    .produtos h2{
+		font-size: 80%;
+		font-weight: bold;
+		transition: 0.2s;
+	}
+
+	.produtos p{
+		font-size: 70%;
+	}
+
+	.produtos li{
+		padding: 8% 2%;
+		margin: 0 0 0 2%;
+	}
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+        
+    }
+
+    .input-padrao {
+        width: 80%;
+        margin: 10px ;
+    }
+
+    .enviar {
+        width: auto;
+        padding: 15px 15px;
+    }
+
+    table {
+        margin: 10px auto;
+    }
 }
