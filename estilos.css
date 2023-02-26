@@ -256,7 +256,7 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 940px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
@@ -267,9 +267,12 @@ td, th {
     }
 
     nav {
-        font-size: 20px;
         position: static;
-        margin: 0 5px 0 25px;
+    }
+
+    nav a {
+        font-size: 20px;
+        margin: 0 5px;
     }
 
     p {
